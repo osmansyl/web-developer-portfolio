@@ -1,3 +1,4 @@
+/* common shared styles */
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -14,6 +15,20 @@ body {
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* nav related styles */
@@ -49,15 +64,52 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* Header Related */
 .Header {
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .benner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.benner .profile-pic{
+
+.benner-content {
+    max-width: 500px;
+}
+
+
+
+
+.benner .profile-pic {
     width: 500px;
+}
+
+.benner-gretting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.benner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
 }
